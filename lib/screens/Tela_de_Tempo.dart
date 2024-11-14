@@ -30,8 +30,8 @@ class TimeoutScreen extends StatelessWidget {
             const SizedBox(height: 40),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Retorna à tela anterior
-                onRetry(); // Executa a função de reinício
+                Navigator.of(context).pop(); 
+                onRetry(); 
               },
               child: const Text('Reiniciar Quiz'),
             ),

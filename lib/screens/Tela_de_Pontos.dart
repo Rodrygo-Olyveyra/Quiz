@@ -37,9 +37,9 @@ class ScoreScreen extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color(0xFF1B0035), // Roxo escuro
-              Color(0xFF00072D), // Azul escuro
-              Color(0xFF2D004B), // Roxo mais claro
+              Color(0xFF1B0035), 
+              Color(0xFF00072D),
+              Color(0xFF2D004B), 
             ],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
@@ -77,8 +77,8 @@ class ScoreScreen extends StatelessWidget {
               const SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pop(); // Volta para a tela anterior
-                  onRetry(); // Reinicia o quiz
+                  Navigator.of(context).pop(); 
+                  onRetry(); 
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.orange,
