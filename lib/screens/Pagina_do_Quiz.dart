@@ -284,7 +284,7 @@ class _QuizPageState extends State<QuizPage> {
       }
     });
 
-    Future.delayed(const Duration(seconds: 2), _nextQuestion);
+    Future.delayed(const Duration(milliseconds: 10), _nextQuestion);
   }
 
   void _nextQuestion() {
